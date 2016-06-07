@@ -1,0 +1,27 @@
+#R Befehle
+
+#assign vector
+poker_wins <- 
+names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+matrix(1:9, byrow=TRUE, nrow  =3)
+
+cbind(matrix1,matrix2) #nebeneinander
+rbind(matrix1,matrix2) #untereinander
+
+#vectors can be transformed to factors
+# Gender vector
+gender_vector <- c("Male", "Female", "Female", "Male", "Male")
+
+# Convert gender_vector to a factor
+factor_gender_vector <- factor(gender_vector)
+
+# Select subset in matrix where diameter is smaller than 1
+subset(planets_df, diameter < 1)
+
+
+# Use order() to create positions
+positions <-  order(planets_df$diameter)
+
+# Use positions to sort planets_df
+planets_df[positions,]
