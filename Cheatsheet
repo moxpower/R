@@ -28,3 +28,6 @@ planets_df[positions,]
 
 # The workspace
 # http://www.statmethods.net/interface/workspace.html
+
+#data frames
+fr <- data.frame(c("hi","ho"), c(1,2), c(TRUE,FALSE))
